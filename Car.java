@@ -17,21 +17,36 @@ public class Car {
         this.color = color;
     }
 
-    // getters -  בשביל להשתמש במשתנים הפרטיים 
 
-    public  String getMake(){
-        return make;
+
+    public String getMake() {
+        return this.make;
     }
 
-    public double getPrice(){
-        return price;
+    public void setMake(String make) {
+        this.make = make;
     }
 
-    public  int getYear(){
-        return  year;
+    public double getPrice() {
+        return this.price;
     }
 
-    public String getColor(){
-        return  color;
+    public void setPrice(double price) {
+        this.price = price;
     }
-}
+
+    public int getYear() {
+        return this.year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public String getColor() {
+        return this.color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
